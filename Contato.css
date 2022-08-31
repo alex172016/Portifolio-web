@@ -1,0 +1,137 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Domine&family=Lobster&family=Lobster+Two:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Romanesco&family=Yeseva+One&display=swap');
+
+  
+  body{ 
+ 
+    font:100% normal 'Montserrat', sans-serif;
+    height:auto;
+
+
+  }
+  .navbar{
+    background-color:azure;
+    font-family: 'Yeseva One', cursive;
+  
+  
+  }
+  .offcanvas-body{
+    background: linear-gradient(180deg, aqua 0%, rgb(255, 255, 255) 100%);
+  
+  }
+  .main{
+    display:flex;
+    flex-direction:column;
+    margin-top:60px;
+    background: linear-gradient(180deg, rgb(13, 240, 240) 0%, rgb(255, 255, 255) 80%); 
+    align-items: center;
+
+  }
+  .master{
+    align-items: center;
+    display:flex;
+    width:50%;
+  }
+
+  .social{
+ 
+    font:100% normal 'Montserrat', sans-serif;
+    align-items: center;
+    display:flex;
+    margin-top:20px;
+    margin-bottom: 20px;
+  
+
+   
+  }
+  .social a{
+    width: 50%;
+    color:black;
+    background-color:#84d340;
+ margin-left: 20px;
+ align-items: center;
+ display:inline;
+ flex-wrap: nowrap;
+    border-radius: 6px;
+    padding:6px 10px;
+    cursor: pointer;
+    text-decoration:none;
+  }
+  @media (min-width: 500px) {
+    .main{
+      flex-direction: column;
+    }
+
+  }
+  .social a:hover{
+    background-color:rgb(116, 224, 106)
+  }
+
+  .section{
+    align-items: center;
+    background-color: fdfdfd;
+    width: 50%;
+    font:100% normal 'Montserrat', sans-serif;
+    flex-direction: column;
+    display: flex;
+
+  }
+  .register-form{
+    font:100% normal 'Montserrat', sans-serif;
+    display:flex;
+
+  }
+  .form-control{
+
+    font:100% normal 'Montserrat', sans-serif;
+  }
+  .form-control label{
+    font-weight:bold;
+    margin-bottom: .6rem;
+  }
+  .form-control input{
+    border:none;
+    margin-bottom: .6rem 0;
+  }
+  #generate-password{
+    font-weight:bold;
+    cursor: pointer;
+    transition: .5s;
+  }
+  #generate-password:hover{
+    color: #0099FF;
+  }
+ 
+ #generated-password{
+  border:1px solid #0099FF;
+  border-radius: 4px;
+  font-weight:bold;
+  font-size: 1.2rem;
+  padding: .4rem;
+  color: #0044ff;
+  text-align: center;
+  margin-bottom:1rem;
+  cursor: pointer;
+  display:none;
+ 
+}
+ #register-form p{
+  color:#81d340;
+  margin-bottom:0.5rem;
+}
+
+.cadastro{
+  background-color: azure;
+  padding: .5rem ;
+
+}
+.cadastro input [type="submit"]{
+
+  border:none;
+  padding:10rem .4rem;
+  max-width: 150px;
+  cursor: pointer;
+  align-self: flex-end;
+  transition:0.4s;
+
+}

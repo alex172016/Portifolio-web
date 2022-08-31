@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Lobster&family=Lobster+Two:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Romanesco&family=Yeseva+One&display=swap');
+
+body{
+
+  font:100% normal Arial, Helvetica;
+}
+
+h5{
+  margin:35px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:20px;
+}
+p{
+  font-size: 20px;
+  font-family: normal Arial, Helvetica;
+  margin: 35px;
+}
+.navbar{
+  background-color:azure;
+  font-family: 'Yeseva One', cursive;
+
+
+}
+.offcanvas-body{
+  background: linear-gradient(180deg, aqua 0%, rgb(255, 255, 255) 100%);
+
+}
+.centro{
+  display:flex;
+  justify-content: center;
+  background: linear-gradient(180deg, aqua 0%, rgb(255, 255, 255) 100%);
+}
+
+.card{
+  margin-top:80px;
+float:left;
+  max-width: 800px;
+  max-height: 880px;
+justify-content: center;
+display:flex;
+  flex-wrap: nowrap;
+  flex-direction:row-reverse;
+  overflow: hidden;
+  border: none;
+}
+@media (max-width:600px) {
+.centro{
+  flex-direction: column;
+  display:flex;
+}
+img{
+max-width: 100px;
+}
+}
+.texto{
+  float: left;
+  align-items: center;
+  text-align: justify;
+}
+ img{
+width: 250px;
+ }
